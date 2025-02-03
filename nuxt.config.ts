@@ -25,7 +25,7 @@ export default defineNuxtConfig({
     },
   },
 
-  css: [],
+  css: ["/assets/css/main.css"],
   modules: ['@nuxt/fonts', 'vuetify-nuxt-module', '@pinia/nuxt', '@nuxt/icon'],
 
   vuetify: {
