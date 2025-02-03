@@ -1,9 +1,7 @@
 <template>
   <v-app>
     <v-main>
-      <slot />
+      <slot/>
     </v-main>
-
-    <AppFooter />
   </v-app>
 </template>
