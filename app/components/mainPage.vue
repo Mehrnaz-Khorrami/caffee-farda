@@ -4,15 +4,19 @@ const {mobile} = useDisplay()
 
 <template>
   <v-container fluid class="bgStyle fill-height  d-flex align-center justify-center">
-    <div class="text-center">
+    <div class="d-flex flex-column align-center">
       <div class>
         <v-img
             src="/img/farda-logo-04.png"
             alt="font-logo"
-            :width="mobile ? '350': '500'"
+            :width="mobile ? '280': '500'"
             eager
         >
         </v-img>
+      </div>
+      <div>
+
+      <StoresCard/>
       </div>
     </div>
   </v-container>
