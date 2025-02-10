@@ -3,6 +3,6 @@
 </script>
 
 <template>
-  <MainPage />
+  <MainPage/>
 </template>
 
