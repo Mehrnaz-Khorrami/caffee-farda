@@ -5,7 +5,7 @@ const {mobile} = useDisplay()
 <template>
   <v-container fluid class="bgStyle fill-height  d-flex align-center justify-center">
     <div class="d-flex flex-column align-center">
-      <div class>
+      <div class="mb-4">
         <v-img
             src="/img/farda-logo-04.png"
             alt="font-logo"
